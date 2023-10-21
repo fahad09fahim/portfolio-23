@@ -1,0 +1,18 @@
+.bg-card {
+  background-image: linear-gradient(
+    to right top,
+    #302f31,
+    #434349,
+    #545962,
+    #63707c,
+    #718994,
+    #7998a0,
+    #82a6ac,
+    #8cb5b6,
+    #91bcba,
+    #97c2be,
+    #9dc9c2,
+    #a3cfc6
+  );
+
+}
