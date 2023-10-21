@@ -1,5 +1,5 @@
 
-import Navbar from "./Navbar/Navbar";
+
 import AboutMe from "./InfoMe/AboutMe";
 
 
@@ -16,7 +16,7 @@ const Home = () => {
       }}
       
     >
-      <Navbar />
+     
       <AboutMe />
     </div>
    </div>

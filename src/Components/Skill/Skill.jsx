@@ -55,7 +55,7 @@ const Skill = () => {
     },
   ];
   return (
-    <div className="pt-4 my-4">
+    <div className="py-16 ">
       <h1 className="text-3xl text-start ms-5">Skills:</h1>
 
       {/* skills progress */}

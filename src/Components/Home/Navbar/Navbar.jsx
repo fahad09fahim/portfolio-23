@@ -1,28 +1,31 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   const navList = (
     <>
       <li>
-        <a>Home</a>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <a>Projects</a>
+        <Link to="/projects">projects</Link>
       </li>
       <li>
-        <a>Skill</a>
+        <Link to="/skill">Skill</Link>
+      </li>
+
+      <li>
+        <a href="https://drive.google.com/file/d/1pmA8o3RE1QACO7Kuy9w0zb7zLBgY-xcu/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
       </li>
       <li>
-        <a>Resume</a>
-      </li>
-      <li>
-        <a>Blog</a>
+        <Link to='/blog'>Blog</Link>
       </li>
     </>
   );
   return (
-    <div className="navbar bg-[#f8f9fa31] px-0 md:px-16 text-black font-semibold fixed z-10">
+    <div className="navbar bg-[#0000007d] px-0 md:px-16 text-white font-semibold fixed z-10" >
       <div className="navbar-start">
         <div className="dropdown">
-          <label tabIndex={0} className="btn btn-ghost lg:hidden">
+          <label tabIndex={0} className="btn btn-ghost lg:hidden" > 
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -39,8 +42,10 @@ const Navbar = () => {
             </svg>
           </label>
           <ul
+        
+     
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-red-600 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  bg-[#0000007d] rounded-b-box w-52"
           >
             {navList}
           </ul>
@@ -48,7 +53,7 @@ const Navbar = () => {
         <h2 className="text-xl font-semibold font">Fahim</h2>
       </div>
       <div className="navbar-end hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{navList}</ul>
+        <ul className="flex gap-6">{navList}</ul>
       </div>
     </div>
   );
