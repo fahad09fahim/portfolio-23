@@ -4,28 +4,20 @@ import firebase from '../../assets/firebase.png'
 import mongodb from '../../assets/mongo.png'
 import express from '../../assets/express.png'
 import daisy from '../../assets/daisy.png'
-import { motion, useMotionValue, useTransform } from "framer-motion"
+
 
 const Projects = () => {
-  const x = useMotionValue(0)
-  const y = useMotionValue(0)
-  const rotateX = useTransform(y,[-100,100],[25,-25]);
-  const rotateY = useTransform(x,[-100,100],[-25,25]);
+
     return (
         <div className="py-16"> 
-        <h1 className="text-start text-3xl ms-4">Projects:</h1>
+        <h1 className="text-start text-2xl md:text-3xl ms-4">Projects:</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 m-6 ">
           {/* the reportorial nexus */}
-       <motion.div 
-       style={{x,y,rotateX,rotateY,z:100}}
-       drag
-       dragElastic={0.16}
-       dragConstraints={{top:0,left:0,right:0,bottom:0}}
-       whileTap={{cursor:'grabbing'}}
-       >
-       <div className="card w-full bg-base-100 shadow-xl">
-  <figure><img  src='https://i.imgur.com/iLjArjq.png' alt="Shoes" /></figure>
-  <div className="card-body">
+       
+       <div className="card w-full bg-base-100 shadow-xl " >
+  <figure  >
+    <img data-aos="fade-up" data-aos-duration="2000"  src='https://i.imgur.com/iLjArjq.png' alt="Shoes" /></figure>
+  <div className="card-body" data-aos="fade-up" data-aos-duration="2000" >
     <h2 className="card-title">The Reportorial Nexus</h2>
     <p>Summer camp school based web application.</p>
     <h3 className='flex justify-start items-center gap-5 h-5 w-5'>
@@ -43,11 +35,11 @@ const Projects = () => {
     </div>
   </div>
 </div>
-       </motion.div>
+      
 {/* leafy universe */}
         <div className="card w-full bg-base-100 shadow-xl">
-  <figure><img src="https://i.imgur.com/19Gdekd.png" alt="Shoes" /></figure>
-  <div className="card-body">
+  <figure><img data-aos="fade-up" data-aos-duration="2000"  src="https://i.imgur.com/19Gdekd.png" alt="Shoes" /></figure>
+  <div className="card-body" data-aos="fade-up" data-aos-duration="2000" >
     <h2 className="card-title">Leafy Universe</h2>
     <p>Tree e-commerce web application</p>
     <h3 className='flex justify-start items-center gap-5 h-5 w-5'>
@@ -67,8 +59,8 @@ const Projects = () => {
 </div>
 {/* sports flash */}
         <div className="card w-full bg-base-100 shadow-xl">
-  <figure><img src="https://i.imgur.com/nM0LwpM.png" alt="Shoes" /></figure>
-  <div className="card-body">
+  <figure><img data-aos="fade-up" data-aos-duration="2000"  src="https://i.imgur.com/nM0LwpM.png" alt="Shoes" /></figure>
+  <div className="card-body" data-aos="fade-up" data-aos-duration="2000" >
     <h2 className="card-title">Sports Flash</h2>
     <p>Sports photographer hire base web application</p>
     <h3 className='flex justify-start items-center gap-5 h-5 w-5'>
@@ -84,8 +76,8 @@ const Projects = () => {
 </div>
 {/* taste bud */}
         <div className="card w-full bg-base-100 shadow-xl">
-  <figure><img src="https://i.imgur.com/wtPQym1.png" alt="Shoes" /></figure>
-  <div className="card-body">
+  <figure><img data-aos="fade-up" data-aos-duration="2000"  src="https://i.imgur.com/wtPQym1.png" alt="Shoes" /></figure>
+  <div className="card-body" data-aos="fade-up" data-aos-duration="2000" >
     <h2 className="card-title">Taste Bud Treasure</h2>
     <p>popular chef info web application</p>
     <h3 className='flex justify-start items-center gap-5 h-5 w-5'>

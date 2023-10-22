@@ -46,11 +46,11 @@ const AboutMe = () => {
               value: "#ffffff",
             },
             links: {
-              color: "#ffffff",
-              distance: 150,
+              color: "#25cf7d",
+              distance: 180,
               enable: true,
-              opacity: 0.2,
-              width: 1,
+              opacity: 0.5,
+              width: 1.2,
             },
             move: {
               direction: "none",
@@ -59,7 +59,7 @@ const AboutMe = () => {
                 default: "bounce",
               },
               random: false,
-              speed: 6,
+              speed: 2,
               straight: false,
             },
             number: {
@@ -73,7 +73,7 @@ const AboutMe = () => {
               value: 0.2,
             },
             shape: {
-              type: "circle",
+              type: 'polygon' ,
             },
             size: {
               value: { min: 1, max: 5 },
