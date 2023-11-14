@@ -10,7 +10,7 @@ const Navbar = () => {
         <Link to="/projects">projects</Link>
       </li>
       <li>
-        <a href="https://drive.google.com/file/d/1uqqEPp5tRjeedbelp9CLMHNYPGnR-m0K/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
+        <a href="https://drive.google.com/file/d/1_ca3zn2OQvM2c5jH6N4g_-q02uvKZTcM/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
       </li>
       <li>
         <Link to='/blog'>Blog</Link>

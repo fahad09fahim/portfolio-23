@@ -15,7 +15,7 @@ const backToTop=()=>{
 
 }
   return (
-    <div className="font-mono" >
+    <div className="font-mono bg-black " >
 <button onClick={backToTop} className="fixed z-20 bottom-0 right-0 mx-4 rounded-xl bg-transparent "><BiSolidUpArrow className="h-9 w-9"/></button>
   <Home/>
    <Skill/>
