@@ -19,17 +19,17 @@ const Skill = () => {
       {/* skills */}
      
     <div className=' mx-8 grid grid-cols-3 md:grid-cols-5 gap-5 p-0 md:p-9 '>
-    <img  data-aos="fade-right" data-aos-duration="2000" src={htmlLogo} className='rounded-lg h-full w-full ' alt="" />
-    <img  data-aos="fade-right" data-aos-duration="2000" src={csslogo} className='rounded-lg h-full w-full' alt="" />
-    <img  data-aos="fade-right" data-aos-duration="2000" src={javascirptLogo} className='rounded-lg h-full w-full' alt="" />
-    <img  data-aos="fade-right" data-aos-duration="2000" src={bootstrapLogo} className='rounded-lg h-full w-full' alt="" />
-    <img  data-aos="fade-right" data-aos-duration="2000" src={tailwinLogo} className='rounded-lg h-full w-full' alt="" />
-    <img data-aos="fade-left"   data-aos-duration="2000" src={firebaselogo} className='rounded-lg h-full w-full' alt="" />
-    <img data-aos="fade-left"   data-aos-duration="2000" src={react} className='rounded-lg h-full w-full' alt="" />
-    <img data-aos="fade-left"   data-aos-duration="2000" src={nodejs} className='rounded-lg h-full w-full' alt="" />
-    <img data-aos="fade-left"   data-aos-duration="2000" src={npm} className='rounded-lg h-full w-full' alt="" />
-    <img data-aos="fade-left"   data-aos-duration="2000" src={mongodb} className='rounded-lg h-full w-full' alt="" />
-    <img data-aos="fade-right"   data-aos-duration="2000" src={redux} className='rounded-lg h-full w-full' alt="" />
+    <img  data-aos="flip-right" data-aos-duration="2000" src={htmlLogo} className='rounded-lg h-full w-full ' alt="" />
+    <img  data-aos="flip-right" data-aos-duration="2000" src={csslogo} className='rounded-lg h-full w-full' alt="" />
+    <img  data-aos="flip-right" data-aos-duration="2000" src={javascirptLogo} className='rounded-lg h-full w-full' alt="" />
+    <img  data-aos="flip-right" data-aos-duration="2000" src={bootstrapLogo} className='rounded-lg h-full w-full' alt="" />
+    <img  data-aos="flip-right" data-aos-duration="2000" src={tailwinLogo} className='rounded-lg h-full w-full' alt="" />
+    <img data-aos="flip-left"   data-aos-duration="2000" src={firebaselogo} className='rounded-lg h-full w-full' alt="" />
+    <img data-aos="flip-left"   data-aos-duration="2000" src={react} className='rounded-lg h-full w-full' alt="" />
+    <img data-aos="flip-left"   data-aos-duration="2000" src={nodejs} className='rounded-lg h-full w-full' alt="" />
+    <img data-aos="flip-left"   data-aos-duration="2000" src={npm} className='rounded-lg h-full w-full' alt="" />
+    <img data-aos="flip-left"   data-aos-duration="2000" src={mongodb} className='rounded-lg h-full w-full' alt="" />
+    <img data-aos="flip-right"  data-aos-duration="2000" src={redux} className='rounded-lg h-full w-full' alt="" />
     </div>
     </div>
   );

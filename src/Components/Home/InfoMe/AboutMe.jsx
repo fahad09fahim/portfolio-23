@@ -116,7 +116,7 @@ const AboutMe = () => {
             Cell:+8801705-295104
         </p>
         <p>
-         Address: Bogura, Bangladesh
+         Address: Dhaka, Bangladesh.
         </p>
         <div className='flex justify-center md:justify-start items-center space-x-6 mt-3 text-3xl'>
             <a  href="https://www.linkedin.com/in/fahadalfahim07/" target='_blank' rel="noreferrer" ><FaLinkedin/> </a>
