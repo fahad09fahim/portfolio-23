@@ -15,7 +15,7 @@ const AboutMe = () => {
     await console.log(container);
   }, []);
   return (
-    <div className="flex flex-col  md:flex-row mx-5 justify-center items-center min-h-screen">
+    <div className="relative flex flex-col  md:flex-row mx-5 justify-center items-center min-h-screen">
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -82,8 +82,8 @@ const AboutMe = () => {
           detectRetina: true,
         }}
       /> 
-    <div className="avatar    p-12 md:p-0">
-  <div className="w-full md:w-1/2  border-2 md:border-4 border-double rounded-xl shadow-xl">
+    <div className="avatar flex items-center justify-center md:justify-start lg:justify-start  p-[1rem] md:p-0">
+  <div className="w-1/2 md:w-1/2 lg:w-2/4  border-2 md:border-4 border-double rounded-xl shadow-xl">
     <img src={avatar} />
   </div>
 </div>
