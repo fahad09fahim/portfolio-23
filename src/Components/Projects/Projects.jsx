@@ -4,6 +4,10 @@ import firebase from '../../assets/firebase.png'
 import mongodb from '../../assets/mongo.png'
 import express from '../../assets/express.png'
 import daisy from '../../assets/daisy.png'
+import oracle from '../../assets/Projects/oracle.png'
+import crypto from '../../assets/Projects/crypto.png'
+import fashion from '../../assets/Projects/fashion.png'
+import skyline from '../../assets/Projects/skyline.png'
 
 
 const Projects = () => {
@@ -12,81 +16,73 @@ const Projects = () => {
         <div className="py-16"> 
         <h1 className="text-start text-2xl md:text-3xl ms-4 text-white">Projects:</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 m-6 ">
-          {/* the reportorial nexus */}
+          {/* The oracle */}
        
        <div className="card w-full bg-base-100 shadow-xl " >
   <figure  >
-    <img data-aos="flip-down" data-aos-duration="2000"  src='https://i.imgur.com/iLjArjq.png' alt="Shoes" /></figure>
+    <img data-aos="flip-down" data-aos-duration="2000"  src={oracle} alt="oracle" /></figure>
   <div className="card-body"  >
-    <h2 className="card-title">The Reportorial Nexus</h2>
-    <p>Summer camp school based web application.</p>
+    <h2 className="card-title">The Oracle</h2>
+    <p>Ai landing page</p>
     <h3 className='flex justify-start items-center gap-5 h-5 w-5'>
       <img src={react} alt="" />
-      <img src={express} alt="" />
-      <img src={firebase} alt="" />
-      <img src={mongodb} alt="" />
       <img src={tailwind} alt="" />
       <img src={daisy} alt="" />
     </h3>
     <div className="card-actions justify-center">
-     <a href="https://reportorial-nexus.netlify.app/" target='_blank' rel="noreferrer">Live site</a>|
-     <a href="https://github.com/fahad09fahim/reportorial-nexus" target='_blank' rel="noreferrer">Github(client)</a>|
-     <a href="https://github.com/fahad09fahim/reportorial-nexus-server-" target='_blank' rel="noreferrer">Github(server)</a>
+     <a href="https://the-oracle-01.netlify.app/" target='_blank' rel="noreferrer">Live site</a>|
+     <a href="https://github.com/fahad09fahim/oracle" target='_blank' rel="noreferrer">Github(client)</a>|
     </div>
   </div>
 </div>
       
-{/* leafy universe */}
+{/* crypto chain*/}
         <div className="card w-full bg-base-100 shadow-xl">
-  <figure><img data-aos="flip-down" data-aos-duration="2000"  src="https://i.imgur.com/19Gdekd.png" alt="Shoes" /></figure>
+  <figure><img data-aos="flip-down" data-aos-duration="2000"  src={crypto} alt="crypto" /></figure>
   <div className="card-body" >
-    <h2 className="card-title">Leafy Universe</h2>
-    <p>Tree e-commerce web application</p>
+    <h2 className="card-title">Crypto Chain</h2>
+    <p>NFT Landing page</p>
     <h3 className='flex justify-start items-center gap-5 h-5 w-5'>
       <img src={react} alt="" />
-      <img src={express} alt="" />
-      <img src={firebase} alt="" />
-      <img src={mongodb} alt="" />
       <img src={tailwind} alt="" />
       <img src={daisy} alt="" />
     </h3>
     <div className="card-actions justify-center">
-      <a href="https://leafy-universe.netlify.app/" target='_blank' rel="noreferrer">live Site</a>|
-      <a href="https://github.com/fahad09fahim/leafy-universe-client" target='_blank' rel="noreferrer">Github(client)</a>|
-      <a href="https://github.com/fahad09fahim/leafy-universe-server" target='_blank' rel="noreferrer">Github(server)</a>
+      <a href="https://crypto-chain-01.netlify.app/" target='_blank' rel="noreferrer">live Site</a>|
+      <a href="https://github.com/fahad09fahim/crypto-chain" target='_blank' rel="noreferrer">Github(client)</a>|
     </div>
   </div>
 </div>
-{/* sports flash */}
+{/* Fashion Fusion */}
         <div className="card w-full bg-base-100 shadow-xl">
-  <figure><img data-aos="flip-down" data-aos-duration="2000"  src="https://i.imgur.com/nM0LwpM.png" alt="Shoes" /></figure>
+  <figure><img data-aos="flip-down" data-aos-duration="2000"  src={fashion} alt="fashion" /></figure>
   <div className="card-body" >
-    <h2 className="card-title">Sports Flash</h2>
-    <p>Sports photographer hire base web application</p>
+    <h2 className="card-title">Fashion Fusion</h2>
+    <p>E-commerce Landing page</p>
     <h3 className='flex justify-start items-center gap-5 h-5 w-5'>
       <img src={react} alt="" />
-      <img src={firebase} alt="" />
+      <img src={tailwind} alt="" />
      
     </h3>
     <div className="card-actions justify-center">
-    <a href="https://sports-flash.web.app/" target='_blank' rel="noreferrer">Live Site</a>|
-    <a href="https://github.com/fahad09fahim/Sports-Flash" target='_blank' rel="noreferrer">Github</a>
+    <a href="https://fashion-fusion-00.netlify.app/" target='_blank' rel="noreferrer">Live Site</a>|
+    <a href="https://github.com/fahad09fahim/FashionFusion" target='_blank' rel="noreferrer">Github</a>
     </div>
   </div>
 </div>
-{/* taste bud */}
+{/* Skyline */}
         <div className="card w-full bg-base-100 shadow-xl">
-  <figure><img data-aos="flip-down" data-aos-duration="2000"  src="https://i.imgur.com/wtPQym1.png" alt="Shoes" /></figure>
+  <figure><img data-aos="flip-down" data-aos-duration="2000"  src={skyline} alt="Shoes" /></figure>
   <div className="card-body" >
-    <h2 className="card-title">Taste Bud Treasure</h2>
-    <p>popular chef info web application</p>
+    <h2 className="card-title">Skyline</h2>
+    <p>Real Estate Landing Page</p>
     <h3 className='flex justify-start items-center gap-5 h-5 w-5'>
       <img src={react} alt="" />
-      <img src={firebase} alt="" />
+      <img src={tailwind} alt="" />
     </h3>
     <div className="card-actions justify-center">
-    <a href="https://taste-bud-treasure.netlify.app/" target='_blank' rel="noreferrer">Live Site</a>|
-    <a href="https://github.com/fahad09fahim/taste-bud-treasure" target='_blank' rel="noreferrer">Github</a>
+    <a href="https://skyline-009.netlify.app/" target='_blank' rel="noreferrer">Live Site</a>|
+    <a href="https://github.com/fahad09fahim/skyline" target='_blank' rel="noreferrer">Github</a>
     </div>
   </div>
 </div>
